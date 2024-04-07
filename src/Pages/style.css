@@ -1,0 +1,89 @@
+body{
+    background: linear-gradient(to bottom left, #86ece7, #fc6394);
+}
+.form-container {
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+  }
+  
+  .form-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-container input[type="text"],
+  .form-container input[type="date"],
+  .form-container textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-container button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form-container button:hover {
+    background-color: #0056b3;
+  }
+.form-header{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #032b54;
+    font-weight: 700;
+}  
+.form-view{
+    margin-top: 20px;
+}
+.form-view {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  .form-view div {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .form-view strong {
+    color: #333;
+  }
+  
+  .form-view hr {
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+  }
+.expe-header{
+    margin-bottom: 5px;
+    margin-top: 20px;
+}  
+h4{
+    text-align: center;
+    margin-top: 20px;
+}
+.select-status{
+    border: 1px solid rgb(198, 196, 196);
+    height: 45px;
+    border-radius: 5px;
+    color: gray;
+}
+.date-status{
+    color: gray;
+}
